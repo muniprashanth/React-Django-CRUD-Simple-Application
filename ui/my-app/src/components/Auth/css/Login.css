@@ -1,0 +1,29 @@
+.captcha-container {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.captcha-text {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 5px;
+  position: relative; 
+}
+.captcha-text span {
+  display: inline-block;
+}
+.captcha-text span:nth-child(odd) 
+{
+   color: blue; 
+   transform: rotate(-2deg);
+}
+
+.captcha-text span:nth-child(even) 
+{
+  color: blueviolet;
+  transform: rotate(2deg);
+}

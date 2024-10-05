@@ -1,0 +1,34 @@
+/* ReactCalendar.css */
+  .calendar-container {
+    margin: 20px;
+  }
+  
+  .calendar-header {
+    margin-bottom: 20px;
+    align-items: center;
+  }
+    
+  .calendar-table {
+    width: 100%;
+  }
+  
+  .day {
+    cursor: pointer;
+  }
+  
+  .empty-cell {
+    visibility: hidden;
+  }
+  
+  .header-title h2 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .header-action {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+
+  

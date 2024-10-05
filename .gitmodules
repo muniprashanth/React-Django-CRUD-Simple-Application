@@ -1,0 +1,3 @@
+[submodule "ui/my-app"]
+	path = ui/my-app
+	url = https://github.com/muniprashanth/React---Django-CRUD-Application.git

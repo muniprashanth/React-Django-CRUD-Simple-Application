@@ -1,0 +1,150 @@
+.register-container 
+    {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .register-form 
+    {
+      max-width: 800px;
+      width: 100%;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+  .responsive-image {
+    max-width: 100%;
+    max-height: 70vh; /* You can adjust the height based on your preference */
+    width: auto;
+    height: auto;
+  }
+  .center-container 
+      {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+      }
+
+    .login-container 
+    {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-form 
+    {
+      max-width: 800px;
+      width: 100%;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    .forgot-container 
+    {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .forgot-form 
+    {
+      max-width: 800px;
+      width: 100%;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    
+
+      .responsive-undraw-image {
+        margin-top: 20%;
+        max-width: 100%;
+        max-height: 70vh; /* You can adjust the height based on your preference */
+        width: auto;
+        height: auto;
+      }
+      .responsive-undraw-image-register {
+        margin-top: 30%;
+        max-width: 100%;
+        max-height: 170vh; /* You can adjust the height based on your preference */
+        width: auto;
+        height: auto;
+      }
+      .center-container-login
+      {
+        margin-top: 10%;
+        display: grid;
+        /* justify-content: center; */
+        align-items: center;
+      }
+      .image-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-height: 70vh;
+      }
+      
+      .form-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .center-container-forgot-password
+      {
+        margin-top: 20%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+      }
+      .center-container-register
+      {
+        margin-top: 5%;
+        justify-content: center;
+        align-items: center;
+      }
+      .loader-container 
+      {
+        display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+      }
+      @media (min-width: 768px) {
+        .center-container,
+        .center-container-forgot-password {
+          margin-top: 0;
+        }
+      }
+      @media (min-width: 1248px) {
+        .center-container,
+        .center-container-forgot-password {
+          margin-top:20%;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .register-container,
+        .login-container,
+        .loader-container {
+          height: auto; /* Adjust the height based on your preference */
+        }
+      
+        .responsive-image {
+          max-height: 40vh; /* Adjust the height based on your preference */
+        }
+      
+        .center-container,
+        .center-container-forgot-password {
+          margin-top: 10%; /* Adjust the margin-top based on your preference */
+        }
+      
+        .login-form {
+          margin-top: 20px; /* Adjust the margin-top based on your preference */
+        }
+      }
+      img 
+	{
+    	pointer-events: none;
+	}
